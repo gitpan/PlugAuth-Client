@@ -1,0 +1,44 @@
+{
+   "abstract" : "PlugAuth Client",
+   "author" : [
+      "Graham Ollis <gollis@sesda3.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "restricted"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "PlugAuth-Client",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Clustericious::Client" : "0.73",
+            "Clustericious::Client::Command" : "0",
+            "File::Basename" : "0",
+            "File::Spec" : "0",
+            "Log::Log4perl" : "0",
+            "Log::Log4perl::CommandLine" : "0",
+            "Term::Prompt" : "0",
+            "YAML" : "0",
+            "perl" : "v5.10.0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.17"
+}
+

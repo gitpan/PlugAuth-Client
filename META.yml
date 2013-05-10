@@ -1,0 +1,26 @@
+---
+abstract: 'PlugAuth Client'
+author:
+  - 'Graham Ollis <gollis@sesda3.com>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.130880'
+license: restrictive
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PlugAuth-Client
+requires:
+  Clustericious::Client: 0.73
+  Clustericious::Client::Command: 0
+  File::Basename: 0
+  File::Spec: 0
+  Log::Log4perl: 0
+  Log::Log4perl::CommandLine: 0
+  Term::Prompt: 0
+  YAML: 0
+  perl: v5.10.0
+version: 0.17

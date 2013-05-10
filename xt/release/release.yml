@@ -1,0 +1,10 @@
+---
+pod_spelling_system:
+  stopwords:
+    - API
+    - IP
+    - PlugAuth
+    - login
+    - plugauthclient
+    - usernames
+    - GSFC
